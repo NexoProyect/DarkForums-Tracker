@@ -40,6 +40,8 @@ cd darkforums-leak-tracker
 pip install requests beautifulsoup4 python-telegram-bot
 ```
 
+Also you can get the file directly from [Releases](https://github.com/NexoProyect/DarkForums-Tracker/releases)
+
 ## Configuration
 
 Edit the following variables inside the script:
