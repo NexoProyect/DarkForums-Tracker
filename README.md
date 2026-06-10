@@ -34,7 +34,7 @@ The scraper maintains a local state file to avoid duplicate notifications and on
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/darkforums-leak-tracker.git
+git clone https://github.com/NexoProyect/DarkForums-Tracker.git
 cd darkforums-leak-tracker
 
 pip install requests beautifulsoup4 python-telegram-bot
