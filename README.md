@@ -99,4 +99,4 @@ This project is provided **for educational, research, and threat intelligence pu
 
 ## License
 
-This project is released under the **MIT License**. See the `LICENSE` file for additional details.
+This project is released under the **GNU GENERAL PUBLIC LICENSE**. See the `LICENSE` file for additional details.
