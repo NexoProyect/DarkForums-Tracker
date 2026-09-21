@@ -90,7 +90,7 @@ Once started, the application will:
 💬 Replies: 15
 👁️ Views: 320
 🕐 Last Post: 5 minutes ago
-🔗 Link: https://darkforums.su/...
+🔗 Link: https://darkforums.ru/...
 
 ⏰ Detected: 2026-06-10 14:35:22
 ```
