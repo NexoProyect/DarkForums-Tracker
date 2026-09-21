@@ -1,5 +1,5 @@
 """
-DarkForums.su Leaks Tracker made by SwagMix8 (Go check t.me/Joytechlegion)
+DarkForums.ru Leaks Tracker made by SwagMix8 (Go check t.me/Joytechlegion)
 """
 import requests
 from bs4 import BeautifulSoup
@@ -13,7 +13,7 @@ from telegram import Bot
 from telegram.error import TelegramError
 
 # Config (You can Change the State File and Interval if u want)
-URL = "https://darkforums.su/Forum-Databases"
+URL = "https://darkforums.ru/Forum-Databases"
 TELEGRAM_BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
 TELEGRAM_CHAT_ID = "YOUR_CHAT_ID_HERE"
 CHECK_INTERVAL = 10  # This time is on seconds
@@ -62,7 +62,7 @@ class LeakScraper:
                 title = title_link.get_text(strip=True)
                 thread_url = title_link.get('href')
                 if thread_url and not thread_url.startswith('http'):
-                    thread_url = f"https://darkforums.su/{thread_url}"
+                    thread_url = f"https://darkforums.ru/{thread_url}"
 
                 prefix_elem = row.find('span', class_='rf_tprefix')
                 prefix = prefix_elem.get_text(strip=True) if prefix_elem else ""
